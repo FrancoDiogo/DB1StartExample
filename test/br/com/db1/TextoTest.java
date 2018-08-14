@@ -37,4 +37,9 @@ public class TextoTest {
 	public void nomeCompleto4PrimeirasLetrasTest() {
 		assertEquals("Diog", texto.nomeCompleto4PrimeirasLetras("Diogo Pelegrine Facci Franco"));
 	}
+	
+	@Test
+	public void nomeCompletoAPartirTerceiraLetra() {
+		assertEquals("ogo Pelegrine Facci Franco", texto.nomeCompletoAPartirTerceiraLetra("Diogo Pelegrine Facci Franco"));
+	}
 }

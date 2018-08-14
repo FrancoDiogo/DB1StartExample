@@ -21,4 +21,8 @@ public class Texto {
 	public String nomeCompleto4PrimeirasLetras(String parametro) {
 		return parametro.substring(0, 4);
 	}
+
+	public String nomeCompletoAPartirTerceiraLetra(String parametro) {
+		return parametro.substring(2);
+	}
 }
