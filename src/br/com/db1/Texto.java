@@ -25,4 +25,8 @@ public class Texto {
 	public String nomeCompletoAPartirTerceiraLetra(String parametro) {
 		return parametro.substring(2);
 	}
+
+	public String nomeCompleto4UltimasLetras(String parametro) {
+		return parametro.substring(parametro.length() -4);
+	}
 }

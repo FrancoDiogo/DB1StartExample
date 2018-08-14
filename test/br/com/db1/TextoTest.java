@@ -39,7 +39,12 @@ public class TextoTest {
 	}
 	
 	@Test
-	public void nomeCompletoAPartirTerceiraLetra() {
+	public void nomeCompletoAPartirTerceiraLetraTest() {
 		assertEquals("ogo Pelegrine Facci Franco", texto.nomeCompletoAPartirTerceiraLetra("Diogo Pelegrine Facci Franco"));
+	}
+	
+	@Test
+	public void nomeCompleto4UltimasLetrasTest() {
+		assertEquals("anco", texto.nomeCompleto4UltimasLetras("Diogo Pelegrine Facci Franco"));
 	}
 }
