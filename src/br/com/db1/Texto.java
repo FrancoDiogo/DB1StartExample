@@ -17,4 +17,8 @@ public class Texto {
 	public Integer contarCaracteresMenosBackspace(String parametro) {
 		return parametro.trim().length();
 	}
+
+	public String nomeCompleto4PrimeirasLetras(String parametro) {
+		return parametro.substring(0, 4);
+	}
 }

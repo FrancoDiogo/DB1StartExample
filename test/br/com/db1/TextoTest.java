@@ -32,4 +32,9 @@ public class TextoTest {
 		assertTrue(8 == texto.contarCaracteresMenosBackspace(" DB1START "));
 		assertFalse(10 == texto.contarCaracteresMenosBackspace(" DB1START "));
 	}
+	
+	@Test
+	public void nomeCompleto4PrimeirasLetrasTest() {
+		assertEquals("Diog", texto.nomeCompleto4PrimeirasLetras("Diogo Pelegrine Facci Franco"));
+	}
 }
