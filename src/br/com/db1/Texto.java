@@ -1,0 +1,20 @@
+package br.com.db1;
+
+public class Texto {
+
+	public String retornarEmMaisculo(String parametro) {
+		return parametro.toUpperCase();
+	}
+
+	public String retornarEmMinusculo(String parametro) { //QUAL A DIFERENCA EM DEIXAR String ou Object?
+		return parametro.toLowerCase();
+	}
+
+	public Integer contarCaracteres(String parametro) {
+		return parametro.length();
+	}
+
+	public Integer contarCaracteresMenosBackspace(String parametro) {
+		return parametro.trim().length();
+	}
+}
